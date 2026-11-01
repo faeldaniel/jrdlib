@@ -1,0 +1,30 @@
+# ------------------------------------------------------------------
+# Só o código-fonte (src/) e os arquivos do repositório são versionados.
+# O projeto do NetBeans (build.xml, nbproject/, test/, ícones, build/
+# e dist/) continua apenas nesta máquina.
+# ------------------------------------------------------------------
+/*
+!/src/
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/LICENSE
+
+# ------------------------------------------------------------------
+# Arquivos que nunca devem entrar, mesmo dentro de src/
+# ------------------------------------------------------------------
+*.class
+*.jar
+*.log
+*.bak
+*.orig
+*~
+
+# Sistema operacional
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Cópias geradas em conflitos de sincronização do Dropbox
+*conflicted copy*
+*[Cc]ópia em conflito*

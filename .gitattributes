@@ -1,0 +1,25 @@
+# Normaliza os finais de linha: LF dentro do repositório e, no checkout,
+# o padrão do sistema (CRLF no Windows).
+* text=auto
+
+# Código-fonte e arquivos do projeto
+*.java        text diff=java
+*.xml         text
+*.properties  text
+*.form        text
+*.md          text
+*.txt         text
+
+# Scripts que exigem um final de linha específico
+*.bat         text eol=crlf
+*.cmd         text eol=crlf
+*.sh          text eol=lf
+
+# Binários: sem conversão de final de linha e sem diff de texto
+*.jar         binary
+*.class       binary
+*.png         binary
+*.ico         binary
+*.gif         binary
+*.jpg         binary
+*.jpeg        binary
